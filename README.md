@@ -42,7 +42,8 @@ $$
 Find the camera parameters and the 3D feature points that minimize the cost function.
 
 ### result
-<div style="display:flex;">
-  <img src="images/before_ba.png" style="width:50%; margin-right:10px;">
-  <img src="images/after_ba.png" style="width:50%;">
-</div
+<p align="center">
+  <img alt="Light" src="images/before_ba.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="images/after_ba.png" width="45%">
+</p>
