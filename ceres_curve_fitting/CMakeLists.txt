@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(keypoint_matcher)
+project(ceres_curve_fitting)
 
 set(CMAKE_CXX_FLAGS "-std=c++17")
 set(CMAKE_CXX_FLAGS "-Wall")
