@@ -63,7 +63,8 @@ Final   a: 3.00106, b: 2.03023, c: 1.03467
 ```
 
 ## g2o_bundle_adjustment
-### result
+The problem is identical to the one described in ceres_bundle_adjustment, except that it is now implemented using g2o.
+
 <p align="center">
   <img alt="Light" src="images/before_ba.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
