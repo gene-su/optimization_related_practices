@@ -61,3 +61,11 @@ iteration= 6     chi2= 102.023665        time= 1.7458e-05        cumTime= 0.0002
 Initial a: 0, b: 0, c: 0
 Final   a: 3.00106, b: 2.03023, c: 1.03467
 ```
+
+## g2o_bundle_adjustment
+### result
+<p align="center">
+  <img alt="Light" src="images/before_ba.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="images/g2o_after_ba.png" width="45%">
+</p>
