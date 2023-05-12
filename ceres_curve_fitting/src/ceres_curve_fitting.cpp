@@ -56,6 +56,11 @@ int main() {
     options.linear_solver_type = ceres::DENSE_NORMAL_CHOLESKY;
     options.minimizer_progress_to_stdout = true;
 
+    const int max_iterations = 10;
+    optimizer.initializeOptimization();
+    optimizer.setVerbose(true);
+    optimizer.optimize(max_iterations);
+
     ceres::Solver::Summary summary;
     ceres::Solve(options, &problem, &summary);
 
